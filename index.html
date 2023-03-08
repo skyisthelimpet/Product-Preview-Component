@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="max-w-full overflow-x-hidden">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/build/styles.css" />
+
+  <!-- FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <title>Product Preview</title>
+</head>
+
+<body class="grid min-h-screen place-content-center max-w-full overflow-x-hidden bg-[#f2ebe3] sm:pl-0 sm:pr-0">
+  <main>
+    <div
+      class="mr-10 ml-10 mt-2 mb-2 flex w-[80%] flex-col overflow-hidden rounded-lg shadow-2xl sm:mr-0 sm:ml-0 sm:h-[25rem] sm:w-[33rem] sm:flex-row">
+      <div class="flex flex-1 basis-0 bg-slate-50">
+        <img src="/images/image-product-desktop.jpg" class="hidden sm:block" alt="" />
+        <img src="/images/image-product-mobile.jpg" alt="" class="sm:hidden" />
+      </div>
+
+      <div class="flex flex-1 basis-0 bg-slate-50">
+        <div class="flex flex-col pl-8 pr-8 pt-6">
+          <h2 class="montserrat text-xs tracking-[5px] text-[#6c7289]">
+            PERFUME
+          </h2>
+          <h1 class="fraunces pt-4 text-3xl text-[#1c232b]">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="montserrat pt-4 text-[12px] leading-5 text-[#6c7289]">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="flex flex-row">
+            <h1 class="fraunces pt-5 pb-5 text-3xl text-[#3c8067]">
+              $149.99
+            </h1>
+            <p class="montserrat grid place-content-center pl-5 text-[12px] text-slate-500 line-through">
+              $169.99
+            </p>
+          </div>
+          <button
+            class="montserrat mb-6 h-10 flex-row rounded-lg bg-[#3c8067] align-middle text-[12px] text-white sm:mb-0">
+            <span class="flex justify-center font-bold">
+              <img src="/images/icon-cart.svg" class="mr-2 flex" alt="" /> Add
+              To Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
